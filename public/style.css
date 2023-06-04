@@ -1,0 +1,257 @@
+ 
+ 
+         *{
+             margin:0;
+             padding:0;
+             box-sizing:border-box;
+         }    
+
+
+          body{
+            background-color:#f3f3f3;
+          }
+
+            .header{
+             padding-top:13px;
+              height:70px;
+             display:flex;
+             justify-content:space-between;
+             background-color:#212121;
+             padding-left:20px;
+             padding-right:45px;
+            }   
+
+                .header .title{
+                  color:rgb(252, 252, 252);
+                  font-size: 24px; 
+                  line-height: 18px; 
+                  padding-top:11px;
+                     font-family: sans-serif;
+                } 
+                   
+                  .header img{
+                     width:100px;
+                     height:40px; 
+                  }   
+
+                      .formentries{
+                         margin-top:0px;
+                         padding-left:30px;
+                         padding-right:30px; 
+                         width:100%; 
+                         background-color:white;
+                         padding-bottom:20px; 
+                         box-sizing:border-box;
+                      }       
+
+
+                     
+                 
+
+                        .passwordentry{
+                           margin-top:2px;
+                        }
+                         
+                      .email{
+                        color:rgb(97, 97, 97);
+                     font-size:19px;
+                     font-family:helvetica;
+                     padding-top:20px;
+                     line-height:1;
+                      }  
+
+                         .emandforgot{
+                             display:flex; 
+                             margin-top:7.5px;
+                             justify-content:space-between;
+                         }   
+
+                         .password{
+                           color:rgb(97, 97, 97);
+                           line-height:1;
+                     font-size:19px;
+                     font-family:helvetica;
+                      }  
+
+                      .forgotpass{
+                        text-decoration:none;
+                        color: #0C7C84;
+                     font-size:17px;
+                     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                      }    
+
+
+                         .login{
+                           background-color: rgb(12, 124, 132);
+                           color:rgb(255, 255, 255);
+                           cursor:pointer;
+                             font-size:14px; 
+                             font-family:helvetica;
+                             border:none;
+                             width:60px;  
+                            padding-left:5px;
+                            padding-right:5px;
+                            padding:10px;
+                         }     
+                            
+
+                           .footer{
+                             margin-top:0px; 
+                             width:100%;
+                             padding-top:11px;
+                             padding-bottom:25px;
+                             padding-left:20px;
+                             padding-right:20px;
+
+                           }
+
+                            .footer p{
+                             color:#212121;
+                             text-align:center;
+                             font-family:helvetica;
+                             font-size:14px;
+                            }  
+
+                              .footer p span{
+                                  text-decoration:underline;
+                              }
+
+                       
+
+                            input{
+                             border: 1px solid #BDBDBD;
+                             border-radius: 2px;
+                             width:100%;
+                             padding:3px;
+                             font-size: 20px;
+                             line-height: 18px; 
+                             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                             transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+                            } 
+
+                            
+
+                            .links{
+                             margin-top:10px;
+                               margin-left:20px;
+                               margin-right:20px; 
+                               text-align:center;
+                               padding-left:20px;
+                               padding-right:20px;
+                               width:100%;
+                            }  
+
+                              .links a{
+                                 color: #0C7C84;
+                                 text-align:center;
+                                 font-size:17px;
+                                 text-decoration:none;
+                                 font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                              }
+
+                          
+
+                               /* LAPTOP VIEW*/
+                                   
+
+                               @media only screen and (min-width:881px) { 
+                                  
+ 
+                                  
+                                 
+                                  .header{
+                                     max-width:900px;
+                                     min-width:100px;
+                                     margin:auto;
+                                     margin-top:110px;
+                                     background-color:#353839;
+                                  }
+
+                                  .formentries{
+                                   min-width:100px;
+                                    padding-left:20px;
+                                    padding-right:40px;
+                                    padding-bottom:150px;
+                                  }  
+                                    
+                              
+                               .laptopImage{
+                                  width:100%; 
+                                  padding-bottom:15px;
+                                  padding-top:15px;
+                                  padding-left:35px; 
+                                  cursor:pointer;
+                                  padding-right:35px; 
+                                  background-color:white; 
+                                 
+                               }      
+
+
+                                 .laptopImage2{
+                                  border-right:1px solid black;  
+                                 }
+
+                                .laptopImage img{
+                                    width:70%;
+                                    height:auto;
+                                    margin-top:0px;
+                                    margin-right:20px;
+                                    margin-left:20px;
+                                    border-radius:2px; 
+                                }    
+
+                           
+
+                                     .laptopForm{  
+                                         min-width:100px;
+                                         margin:auto;
+                                         max-width:900px;
+                                         margin-top:0px; 
+                                       padding-bottom:20px; 
+                                        display:grid;
+                                        grid-template-columns:repeat(auto-fit, minmax(160px, 2fr));
+                                     }   
+
+                                     .links{ 
+                                        left:120px;
+                                        position:absolute; 
+                                        margin-top:90px;
+                                        width:100%;
+                                     }   
+
+                                       .email{
+                                        padding-top:80px;
+                                       } 
+                                        
+                                         .login{
+                                          margin-top:25px;
+                                          margin-left:330px;
+                                         }
+
+                              }  
+
+                              @media only screen and (max-width:880px) {
+                                   
+                                   .laptopImage{
+                                    display:none;
+                                   }  
+
+                                     .login{   
+                                      position:absolute;
+                                     right:30px; 
+                                    }
+                                    
+
+                                    .header{
+                                      margin-top:0px;
+                                      margin-left:0px;
+                                      right:0px;
+                                      width:100%; 
+                                    }
+                              }
+
+                                
+                                  
+                                
+
+                                 
